@@ -12,7 +12,7 @@ const cors = require('cors');
 
 // handling the cors policy error here
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:5173' || 'https://mern-project-server-egcj.onrender.com',
     methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
     credentials:true
 }
